@@ -87,6 +87,14 @@ By incorporating these two factors, the Autonomous Barriers ensure controlled an
    - Open the project file in the Arduino IDE.
    - Upload the code to the Arduino Uno R3.
 
+## Instructions 💠
+
+1. Firstly, connect only LCD (16x2 I2C) with Arduino UNO R3 according to the circuit daigram given.
+2. Upload the lcd.ino code to access the HEX address of your LCD.
+3. Now, do the main connections according to the smart car parking system circuit daigram.
+4. Now, change the HEX address in file parking.ino on line 15 with your LCD's HEX address.
+5. Upload the main code (parking.ino) to the Arduino UNO R3.
+
 ## Conclusion 📝
 
 The Smart Car Parking System is a comprehensive solution designed to make parking management more efficient and user-friendly. With features like smart billing, real-time slot counting, and autonomous barriers, this system significantly enhances the parking experience. We hope this project inspires further innovation in IoT-based solutions for everyday problems.
