@@ -32,26 +32,6 @@ An LCD (Liquid Crystal Display) 16x2 with an I2C interface is a common type of d
 - **Embedded Systems**: Common in various embedded systems for user interfaces.
 - **Educational Purposes**: Popular in educational kits and projects for learning about electronics and programming.
 
-## Example Usage with Arduino
-To use a 16x2 I2C LCD with an Arduino, you typically include a library such as `LiquidCrystal_I2C`, which simplifies communication. Here’s a basic example:
-
-```cpp
-#include <Wire.h>
-#include <LiquidCrystal_I2C.h>
-
-// Set the LCD address to 0x27 for a 16x2 display
-LiquidCrystal_I2C lcd(0x27, 16, 2);
-
-void setup() {
-  lcd.begin();
-  lcd.backlight();
-  lcd.print("Hello, World!");
-}
-
-void loop() {
-  // Do nothing here...
-}
-
 ![alt text](I2C-Connection-Diagram-With-Big-LCD-1.webp)
 
 ![alt text](I2C-LCD-Module-Pinout-1.webp)
