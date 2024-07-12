@@ -68,7 +68,7 @@ By incorporating these two factors, the Autonomous Barriers ensure controlled an
 - *Arduino Uno R3 :* The brain of the project, responsible for controlling all the components and processing data.
 - *IR Sensors:* Used for detecting the presence of vehicles at entry/exit points and in individual parking slots.
 - *Servo Motors:* Used to operate the autonomous barriers.
-- *LCD:* Displays information such as the bill amount and slot availability.
+- *LCD (16x2 I2C):* Displays information such as the bill amount and slot availability.
 - *Jumper Wires & Breadboard:* For creating connections between components.
 - *Arduino IDE:* The software used to write and upload code to the Arduino board.
 
