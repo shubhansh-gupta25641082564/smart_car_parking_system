@@ -89,11 +89,11 @@ By incorporating these two factors, the Autonomous Barriers ensure controlled an
 
 ## Instructions 💠
 
-1. Firstly, connect only LCD (16x2 I2C) with Arduino UNO R3 according to the circuit daigram given.
-2. Upload the lcd.ino code to access the HEX address of your LCD.
-3. Now, do the main connections according to the smart car parking system circuit daigram.
-4. Now, change the HEX address in file parking.ino on line 15 with your LCD's HEX address.
-5. Upload the main code (parking.ino) to the Arduino UNO R3.
+1. Firstly, connect only LCD (16x2 I2C) with Arduino UNO R3 according to the circuit daigram ([lcd_circuit_daigram.jpg](https://github.com/shubhansh-gupta25641082564/smart_car_parking_system/blob/main/lcd_circuit_daigram.jpg)) given.
+2. Upload the [lcd.ino](https://github.com/shubhansh-gupta25641082564/smart_car_parking_system/blob/main/lcd.ino) code to access the HEX address of your LCD.
+3. Now, do the main connections according to the smart car parking system circuit daigram ([main_circuit_daigram.jpg](https://github.com/shubhansh-gupta25641082564/smart_car_parking_system/blob/main/main_circuit_daigram.jpg)).
+4. Now, change the HEX address in file [parking.ino](https://github.com/shubhansh-gupta25641082564/smart_car_parking_system/blob/main/parking.ino) on line 15 with your LCD's HEX address.
+5. Upload the main code ([parking.ino](https://github.com/shubhansh-gupta25641082564/smart_car_parking_system/blob/main/parking.ino)) to the Arduino UNO R3.
 
 ## Conclusion 📝
 
